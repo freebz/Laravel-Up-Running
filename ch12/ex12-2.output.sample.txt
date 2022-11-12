@@ -1,0 +1,10 @@
+예제 12-2 ExampleTest 출력 샘플
+
+PHPUnit {x.y.z} by Sebastian Bergmann and contributors.
+
+..                                                                  2 / 2 (100%)
+
+Time: 139ms, Memory: 12.00 MB
+
+
+OK (2 test, 2 assertions)

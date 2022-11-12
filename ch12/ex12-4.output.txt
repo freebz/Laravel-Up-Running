@@ -1,0 +1,19 @@
+예제 12-4 실패한 테스트 출력
+
+PHPUnit {x.y.z} by Sebastian Bergmann and contributors.
+
+.F.                                                                 3 / 3 (100%)
+
+Time: 00:00.281, Memory: 22.00 MB
+
+There was 1 failure:
+
+1) Tests\Feature\FailingTest::testExample
+Expected response status code [301] but received 200.
+Failed asserting that 301 is identical to 200.
+
+/home/fx/work/Laravel Up & Running/ch12/laravel-app/vendor/laravel/framework/src/Illuminate/Testing/TestResponse.php:198
+/home/fx/work/Laravel Up & Running/ch12/laravel-app/tests/Feature/FailingTest.php:20
+
+FAILURES!
+Tests: 3, Assertions: 3, Failures: 1.
