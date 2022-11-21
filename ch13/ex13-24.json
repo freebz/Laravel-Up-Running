@@ -1,0 +1,29 @@
+// 예제 13-24 페이지네이션 링크를 포함한 페이지 처리된 리소스 응답 예시
+
+{
+  "data": [
+    {
+      "name": "Pickes",
+      "breed": "Chorkie",
+    },
+    {
+      "name": "Gandalf",
+      "breed": "Golden Retriever Mix",
+    }
+  ],
+  "links": {
+    "first": "http://gooddogbrant.com/api/dogs?page=1",
+    "last": "http://gooddogbrant.com/api/dogs?page=3",
+    "prev": null,
+    "next": "http://gooddogbrant.com/api/dogs?page=2"
+  },
+  "meta": {
+    "current_page": 1,
+    "from": 1,
+    "last_page": 3,
+    "path": "http://gooddogbrant.com/api/dogs",
+    "per_page": 2,
+    "to": 2,
+    "total": 5
+  }
+}

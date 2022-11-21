@@ -1,0 +1,26 @@
+// 예제 13-9 페이지 처리된 데이터베이스 호출의 샘플 출력
+
+{
+  "current_page": 1,
+  "data": [
+    {
+      'name': 'Fido'
+    },
+    {
+      'name': 'Pickles'
+    },
+    {
+      'name': 'Spot'
+    }
+  ],
+  "first_page_url": "http://myapp.com/api/dogs?page=1",
+  "from": 1,
+  "last_page": 2,
+  "last_page_url": "http://myapp.com/api/dogs?page=2",
+  "last_page_url": "http://myapp.com/api/dogs?page=2",
+  "path": "http://myapp.com/api/dogs",
+  "per_page": 2,
+  "prev_page_url": null,
+  "to": 2,
+  "total": 4
+}

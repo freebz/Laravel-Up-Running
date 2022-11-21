@@ -1,0 +1,34 @@
+예제 13-1 일반적인 REST API 엔드포인트 구조
+
+GET /api/cats
+[
+    {
+        id: 1,
+	name: 'Fluffy'
+    },
+    {
+        id: 2,
+	name: 'Killer'
+    }
+]
+
+GET /api/cats/2
+{
+    id: 2,
+    name: 'Killer'
+}
+
+DELETE /api/cats/2
+(고양이 삭제)
+
+POST /api/cats with body:
+{
+    name: 'Mr Bigglesworth'
+}
+(새 고양이 생성)
+
+PATCH /api/cats/3 with body:
+{
+    name: 'Mr. Bigglesworth'
+}
+(고양이 업데이트)
